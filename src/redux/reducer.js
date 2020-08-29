@@ -7,7 +7,9 @@ const initialState = {
             title: 'Second todo',
             done: false,
         }
-    ]
+    ],
+
+    columns: [{id:1, name: 'qwe'}]
 };
 
 const todo = (state = initialState, action) => {
